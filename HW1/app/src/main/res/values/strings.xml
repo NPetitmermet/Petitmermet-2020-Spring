@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="add">Add</string>
+    <string name="concatenate">Concatenate</string>
+    <string name="result">Result</string>
+    <string name="text_one">Text One</string>
+    <string name="text_two">Text Two</string>
+</resources>
