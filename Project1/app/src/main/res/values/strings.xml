@@ -1,8 +1,12 @@
 <resources>
-    <string name="app_name">HW1</string>
-    <string name="add">Add</string>
-    <string name="concatenate">Concatenate</string>
-    <string name="result">Result</string>
-    <string name="text_one">Text One</string>
-    <string name="text_two">Text Two</string>
+    <string name="app_name">Project1</string>
+    <string name="main_text">Create an Account or Sign In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="create_account">Create Account</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="logout">Logout</string>
+    <string name="successful_logout"> Logged out successfully!</string>
+    <string name="unsuccessful_logout"> Logged out unsuccessfully!</string>
 </resources>

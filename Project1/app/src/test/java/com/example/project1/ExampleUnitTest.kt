@@ -1,4 +1,4 @@
-package HW1.nicho.myapplication
+package com.example.project1
 
 import org.junit.Test
 
