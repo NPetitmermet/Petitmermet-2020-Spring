@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="@color/colorPrimaryDark">
+
+    <TableLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:gravity="center">
+
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="250dp" app:srcCompat="@android:drawable/picture_frame"
+                    android:id="@+id/imageView" android:contentDescription="@string/flowerpicture"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button
+                    android:text="@string/take_picture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/takePicture"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:ems="10"
+                    android:id="@+id/flowerName" android:hint="@string/name_of_flower"
+                    android:autofillHints="" android:textColor="@android:color/white"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text|textShortMessage"
+                    android:ems="10"
+                    android:id="@+id/flowerDescription" android:hint="@string/extra_notes_optional"
+                    android:autofillHints="" android:textColor="@android:color/white"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button
+                    android:text="@string/save_flower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/savePicture"/>
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

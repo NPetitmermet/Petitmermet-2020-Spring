@@ -1,0 +1,62 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6396493127684542271",
+      "lastPropertyId": "8:7272607408359091354",
+      "name": "Flower",
+      "properties": [
+        {
+          "id": "1:1900365005321622833",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8235232133930165937",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:3815540972057823150",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "5:8207934884811490503",
+          "name": "uri",
+          "type": 9
+        },
+        {
+          "id": "6:4445602949270053822",
+          "name": "latitude",
+          "type": 8,
+          "flags": 4
+        },
+        {
+          "id": "7:4204531828588989528",
+          "name": "longitude",
+          "type": 8,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:6396493127684542271",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    3982144296728871373,
+    7272607408359091354
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
